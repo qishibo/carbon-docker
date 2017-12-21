@@ -10,7 +10,7 @@ docker pull qii404/carbon-docker:1.0
 docker run -itd -p8080:8080 -p3306:3306 --name carbon-docker carbon-docker:1.0
 ```
 
-then view [localhost:8080/install](localhost:8080/install) click "Install" to install
+then view [http://localhost:8080/install](http://localhost:8080/install) click "Install" to install
 
 Enjoy it!
 
@@ -24,7 +24,7 @@ docker build -t carbon-docker:1.0 .
 docker run -itd -p8080:8080 -p3306:3306 --name carbon-docker carbon-docker:1.0
 ```
 
-then view [localhost:8080/install](localhost:8080/install) click "Install" to install
+then view [http://localhost:8080/install](http://localhost:8080/install) click "Install" to install
 
 Enjoy it!
 
@@ -36,6 +36,6 @@ docker load -i carbon-docker.tar
 docker run -itd -p8080:8080 -p3306:3306 --name carbon-docker carbon-docker:1.0
 ```
 
-then view [localhost:8080/install](localhost:8080/install) click "Install" to install
+then view [http://localhost:8080/install](http://localhost:8080/install) click "Install" to install
 
 Enjoy it!
