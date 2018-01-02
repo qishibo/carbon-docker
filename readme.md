@@ -13,7 +13,7 @@
 |Database Account|root|
 |Database Password|root|
 
-![安装时数据库配置](https://ws1.sinaimg.cn/large/71405cably1fmpbanzj4ej20jc0g00tr.jpg)
+![安装时数据库配置](http://7xsudm.com1.z0.glb.clouddn.com/71405cably1fmpbanzj4ej20jc0g00tr.jpg)
 
 
 
