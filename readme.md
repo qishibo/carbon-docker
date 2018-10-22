@@ -1,6 +1,6 @@
 # docker环境下的 Carbon 论坛
 
-> carbon仓库里也有Dockerfile, 但是不好使,, 于是乎自己做了个。。
+> carbon仓库里也有Dockerfile, 但是不好使,, 于是乎自己做了个。。开箱即用
 
 
 
@@ -21,7 +21,7 @@
 
 ```
 docker pull qii404/carbon-docker:1.0
-docker run -itd -p8080:8080 -p3306:3306 --name carbon-docker carbon-docker:1.0
+sudo docker run -itd -p8080:8080 --privileged --name carbon-docker qii404/carbon-docker:1.0
 ```
 
 then view [http://localhost:8080/](http://localhost:8080/) click "Install" to install
@@ -36,7 +36,7 @@ Enjoy it!
 cd carbon-docker;
 docker build -t carbon-docker:1.0 .
 
-docker run -itd -p8080:8080 -p3306:3306 --name carbon-docker carbon-docker:1.0
+sudo docker run -itd -p8080:8080 --privileged --name carbon-docker carbon-docker:1.0
 ```
 
 then view [http://localhost:8080/](http://localhost:8080/) click "Install" to install
