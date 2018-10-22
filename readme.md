@@ -20,8 +20,8 @@
 ## Install From DockerHub
 
 ```
-docker pull qii404/carbon-docker:1.0
-sudo docker run -itd -p8080:8080 --privileged --name carbon-docker qii404/carbon-docker:1.0
+docker pull qii404/carbon-docker:latest
+sudo docker run -itd -p8080:8080 --privileged --name carbon-docker qii404/carbon-docker:latest
 ```
 
 then view [http://localhost:8080/](http://localhost:8080/) click "Install" to install
