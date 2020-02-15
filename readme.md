@@ -13,7 +13,7 @@
 |Database Account|root|
 |Database Password|root|
 
-![安装时数据库配置](https://imgup.qii404.me/71405cably1fmpbanzj4ej20jc0g00tr.jpg)
+![安装时数据库配置](https://imgup.qii404.xyz/71405cably1fmpbanzj4ej20jc0g00tr.jpg)
 
 
 
